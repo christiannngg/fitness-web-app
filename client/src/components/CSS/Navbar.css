@@ -1,0 +1,55 @@
+nav {
+    background-color: black;
+    height: 90px;
+    color: white;
+    border-bottom: 4px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container p {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.navbar-links {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.navbar-container ul {
+    display: flex;
+    width: 50%;
+    align-self: center;
+    margin-left: auto;
+    justify-content: center;
+    gap: 15%;
+}
+
+.navbar-container ul li {
+    cursor: pointer;
+    font-size: 18px;
+    list-style: none;
+    
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 60px;
+    cursor: pointer;
+}

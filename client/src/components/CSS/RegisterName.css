@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', Times, serif;
+}
+
+.register-name-container {
+    background-color: black;
+    min-height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-top: 3rem;
+    font-size: 20px;
+}
+.register-desc {
+    font-size: 12px;
+    margin-top: 1rem;
+    color: #1f1f1f;
+}
+
+input {
+    padding: 15px;
+    font-size: 16px;
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    margin-top: 40px;
+}
+
+.button-containers {
+    display: flex;
+    margin-top: 12rem;
+    gap: 10px;
+    
+}
+
+.button-containers button {
+    padding: 20px;
+    font-size: 16px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: none;
+}
+
+.button-containers .next-button {
+    background-color: #0079af;  
+    color: white;  
+}
+
+.button-containers .back-button {
+    background-color: white;
+    color: #0079af;
+    border: 2px solid #0079af;
+}
+
+.button-containers .back-button:hover {
+    background-color: #e6e6e6;
+}
