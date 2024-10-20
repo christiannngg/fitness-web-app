@@ -1,7 +1,26 @@
-.DS_Store
-
+# Node modules
 node_modules/
 
-/node_modules
+# Logs
+*.log
 
+# dotenv environment variables
 .env
+.env.local
+.env.development
+.env.production
+
+# Build directories
+build/
+dist/
+
+# Coverage reports
+coverage/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
