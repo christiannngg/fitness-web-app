@@ -18,7 +18,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -70,4 +70,15 @@ input {
 
 .button-containers .back-button:hover {
     background-color: #e6e6e6;
+}
+
+.input-error{
+    border: 1px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    /* Needs to be aligned the same side as the input field */
 }
