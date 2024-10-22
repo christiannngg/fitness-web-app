@@ -80,5 +80,5 @@ input {
     color: red;
     font-size: 12px;
     margin-top: 5px;
-    /* Needs to be aligned the same side as the input field */
+    padding: 0;
 }
