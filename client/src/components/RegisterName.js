@@ -12,7 +12,7 @@ const RegisterName = () => {
         e.preventDefault(); 
 
         // If the name is empty set red border. 
-        if(firstName.trim() == "") {
+        if(firstName.trim() === "") {
             setError(true);
         } else {
             setError(false);
@@ -27,10 +27,10 @@ const RegisterName = () => {
     
     return (
         <div className="register-name-container">
-            <form>
-                <h1>Enter your first name</h1>
+            <form className="register-form">
+                <h1 className="register-header">Enter your first name</h1>
                 <p className="register-desc">We are happy you're tracking with us!</p>
-                <input
+                <input id="first-name-input"
                 type="text"
                 placeholder="First Name"
                 value={firstName}

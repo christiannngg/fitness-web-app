@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-form {
+.login-form {
     color: black;
     background-color: white;
     height: 500px;
@@ -28,13 +28,14 @@ form {
     align-items: center;
 }
 
-.form-content h1 {
+.login-header {
     font-size: 20px;
-    padding: 40px;
+    padding: 20px;
+    margin: 30px;
 }
 
-.form-content input{
-    margin-bottom: 10px;
+.username-input, .password-input {
+    margin-bottom: 5px;
     padding: 15px;
     border: 1px solid grey;
     width: 75%;
@@ -76,6 +77,3 @@ form {
     color: white;
     font-weight: bold;
 }
-
-
-

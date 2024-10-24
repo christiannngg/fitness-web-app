@@ -39,10 +39,9 @@ const Login = () => {
 
     return (
         <div className="form-container">
-            <form onSubmit={handleLogin} >
+            <form onSubmit={handleLogin} className="login-form" >
                 <div className="form-content">
-                    <h1>Welcome back!</h1>
-
+                    <h1 className="login-header">Welcome back!</h1>
                     <input className="username-input"
                     type="text"
                     placeholder="Username"
@@ -70,4 +69,4 @@ const Login = () => {
     );    
 };
 
-export default Login; 
+export default Login;
